@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">vamos-rachar</string>
+    <string name="title">Vamos Rachar?</string>
+    <string name="image_label">Duas mãos com uma moeda no meio representando a logo</string>
 </resources>
