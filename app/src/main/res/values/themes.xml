@@ -23,4 +23,11 @@
         <item name="android:textAlignment">center</item>
         <item name="android:layout_marginVertical">25dp</item>
     </style>
+
+    <style name="RESULT">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
 </resources>
