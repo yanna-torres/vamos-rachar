@@ -1,5 +1,6 @@
 package com.example.vamos_rachar
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
@@ -44,6 +45,21 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
         talkBtn.setOnClickListener(View.OnClickListener {
             speakResult()
         })
+
+        shareBtn.setOnClickListener {
+            val textToShare = resultTxt.text.toString()
+            if (textToShare.isNotEmpty()) {
+                val sendIntent = Intent().apply {
+                    action = Intent.ACTION_SEND
+                    putExtra(Intent.EXTRA_TEXT, textToShare)
+                    type = "text/plain"
+                }
+
+                val shareTitle = "Escolha um aplicativo para compartilhar:"
+                val shareIntent = Intent.createChooser(sendIntent, shareTitle)
+                startActivity(shareIntent)
+            }
+        }
     }
     private fun speakResult(){
         val integerPart = floor(resultValue).toInt()
