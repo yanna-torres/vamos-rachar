@@ -42,23 +42,23 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
 
         // Call TTS for value result
         talkBtn.setOnClickListener(View.OnClickListener {
-            val integerPart = floor(resultValue).toInt()
-            val decimalPart = ((resultValue - integerPart) * 100).toInt()
-
-            val integerPartSpoken = when {
-                resultValue == 0.0 -> "0 reais"
-                integerPart == 1 -> "1 real"
-                integerPart > 1 -> "$integerPart reais"
-                else -> ""
-            }
-            val decimalPartSpoken = if (decimalPart > 0) "e $decimalPart centavos" else ""
-
-            val spokenResult = "$integerPartSpoken $decimalPartSpoken"
-            speakResult(spokenResult)
+            speakResult()
         })
     }
-    private fun speakResult(speakTxt:String){
-        tts.speak(speakTxt, TextToSpeech.QUEUE_FLUSH, null, null)
+    private fun speakResult(){
+        val integerPart = floor(resultValue).toInt()
+        val decimalPart = ((resultValue - integerPart) * 100).toInt()
+
+        val integerPartSpoken = when {
+            resultValue == 0.0 -> "0 reais"
+            integerPart == 1 -> "1 real"
+            integerPart > 1 -> "$integerPart reais"
+            else -> ""
+        }
+        val decimalPartSpoken = if (decimalPart > 0) "e $decimalPart centavos" else ""
+
+        val spokenResult = "$integerPartSpoken $decimalPartSpoken"
+        tts.speak(spokenResult, TextToSpeech.QUEUE_FLUSH, null, null)
     }
 
     override fun onInit(status: Int) {
