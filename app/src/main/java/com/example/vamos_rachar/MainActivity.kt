@@ -18,7 +18,7 @@ import kotlin.math.floor
 class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatcher {
     private lateinit var tts : TextToSpeech
     private var resultValue : Double = 0.00
-    private val df = DecimalFormat("#.##")
+    private val df = DecimalFormat("#.00")
     private lateinit var priceInput : EditText
     private lateinit var peopleInput : EditText
     private lateinit var resultTxt : TextView
