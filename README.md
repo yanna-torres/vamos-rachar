@@ -24,11 +24,17 @@ As features principais são:
 
 ### Ícone e Paleta de Cores :art:
 
+Como pedido, foi criado um ícone para o aplicativo. O ícone são duas mãos trocando dinheiro, retirado do site [Flaticon]([https://www.flaticon.com/br/icone-gratis/combustivel_1505662?term=gasolina&page=1&position=18&origin=search&related_id=1505662](https://www.flaticon.com/br/icone-gratis/a-receber_10842272?related_id=10842272)), que fornece ícones de forma gratuita.
+
+Com base nas cores do ícone, foi definida uma paleta de cores base que ficasse harmoniosa com o ícone e representasse o assunto do app. Dentro do app, porém, há mais cores derivadas de variações e ajustes para cada tema.
+
 | **Ícone**  | **Paleta de Cores** |
-|--------|-----------------|
-|a       | a               |
+| ------ | --------------- |
+|![ícone]()       | ![Paleta de Cores]() |
 
 ### Novo layout e temas :woman_artist:
+
+Com base no tópico anterior, foi criado dois temas, _claro_ e _escuro_, com um layout simples, contendo apenas o ícone, os campos de texto, o resultado e os botões de ação.
 
 ## Calculando o resultado
 
