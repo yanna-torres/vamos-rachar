@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
         Rest of the code
     */
     private var resultValue : Double = 0.00
-    private val df = DecimalFormat("#.00")
+    private val df = DecimalFormat("0.00")
     private lateinit var priceInput : EditText
     private lateinit var peopleInput : EditText
     private lateinit var resultTxt : TextView
