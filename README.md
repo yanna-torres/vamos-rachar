@@ -225,4 +225,4 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
 
 ## Resultados :play_or_pause_button:
 
-![Gravação de Tela]()
+![Gravação de Tela](final.gif)
