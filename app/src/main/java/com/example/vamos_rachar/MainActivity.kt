@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
             speakResult()
         })
 
+        // Sharing result
         shareBtn.setOnClickListener {
             val textResult = resultTxt.text.toString()
             val textToShare = "Vamos Rachar? \n Sua parte da conta: $textResult"
