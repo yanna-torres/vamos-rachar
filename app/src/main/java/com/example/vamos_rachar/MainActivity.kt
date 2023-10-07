@@ -47,7 +47,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
         })
 
         shareBtn.setOnClickListener {
-            val textToShare = resultTxt.text.toString()
+            val textResult = resultTxt.text.toString()
+            val textToShare = "Vamos Rachar? \n Sua parte da conta: $textResult"
             if (textToShare.isNotEmpty()) {
                 val sendIntent = Intent().apply {
                     action = Intent.ACTION_SEND
@@ -55,7 +56,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
                     type = "text/plain"
                 }
 
-                val shareTitle = "Escolha um aplicativo para compartilhar:"
+                val shareTitle = "VamosRachar"
                 val shareIntent = Intent.createChooser(sendIntent, shareTitle)
                 startActivity(shareIntent)
             }
