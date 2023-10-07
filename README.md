@@ -8,7 +8,7 @@
 >
 > **Professor:** Dr. Windson Viana
  
-**Sumário: [A Atividade](#a-atividade-page_with_curl) •**
+**Sumário: [A Atividade](#a-atividade-page_with_curl) • [Ícone, Paleta de Cores e Novo Layout](#ícone-paleta-de-cores-e-novo-layout-paintbrush) • [Calculando o resultado](#calculando-o-resultado-abacus) • [Compartilhando o resultado](#compartilhando-o-resultado-postbox) • [Reproduzindo o resultado](#reproduzindo-o-resultado-loud_sound) • [Resultados](#resultados-play_or_pause_button) •**
 
 ## A atividade :page_with_curl:
 
@@ -36,8 +36,10 @@ Com base nas cores do ícone, foi definida uma paleta de cores base que ficasse 
 
 Com base no tópico anterior, foi criado dois temas, _claro_ e _escuro_, com um layout simples, contendo apenas o ícone, os campos de texto, o resultado e os botões de ação.
 
-## Calculando o resultado
+## Calculando o resultado :abacus:
 
-## Compartilhando o resultado
+## Compartilhando o resultado :postbox:
 
-## Reproduzindo o resultado
+## Reproduzindo o resultado :loud_sound:
+
+## Resultados :play_or_pause_button:
