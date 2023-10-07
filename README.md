@@ -19,3 +19,19 @@ As features principais são:
 3. **(2 pontos)** - Já permite o compartilhamento do valor final
 4. **(2 pontos)** - Fala o valor calculado usando TTS
 5. **(2 pontos)** - O usuário não precisa clicar para calcular, ele já faz automaticamente após o preenchimento dos campos de valor e número de pessoas
+
+## Ícone, Paleta de Cores e Novo Layout :paintbrush:
+
+### Ícone e Paleta de Cores :art:
+
+| **Ícone**  | **Paleta de Cores** |
+|--------|-----------------|
+|a       | a               |
+
+### Novo layout e temas :woman_artist:
+
+## Calculando o resultado
+
+## Compartilhando o resultado
+
+## Reproduzindo o resultado
